@@ -36,7 +36,8 @@ class MainActivity : AppCompatActivity() {
         pos9 = findViewById(R.id.pos9)
 
         boton.setOnClickListener() {
-            enableDisableButton()
+            //enableDisableButton()
+            reiniciarJuego()
         }
         pos1.setOnClickListener() { seleccionaFigura(it as ImageButton, 0, 0) }
         pos2.setOnClickListener() { seleccionaFigura(it as ImageButton, 0, 1) }
@@ -189,5 +190,17 @@ class MainActivity : AppCompatActivity() {
             }
         }
         return true // Si no hay celdas vacías, el tablero está lleno
+    }
+
+    private fun reiniciarJuego() {
+        // Limpiar el tablero
+        tablero = Array(3) { IntArray(3) }
+
+        // Restablecer las imágenes de las casillas
+        val casillas = listOf(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9)
+        casillas.forEach { it.setImageResource(R.drawable.limpio) }
+
+        // Habilitar las casillas y deshabilitar el botón de jugar
+        enableDisableButton()
     }
 }

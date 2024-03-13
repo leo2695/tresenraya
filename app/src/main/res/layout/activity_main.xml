@@ -10,36 +10,34 @@
         android:id="@+id/pos1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toStartOf="@+id/pos2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/boton"
         app:srcCompat="@drawable/limpio" />
 
+
     <ImageButton
         android:id="@+id/pos3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/pos2"
         app:layout_constraintTop_toBottomOf="@+id/boton"
         app:srcCompat="@drawable/limpio" />
-
 
     <ImageButton
         android:id="@+id/pos2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toStartOf="@+id/pos3"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/pos1"
         app:layout_constraintTop_toBottomOf="@+id/boton"
         app:srcCompat="@drawable/limpio" />
 
@@ -60,10 +58,10 @@
         android:id="@+id/pos4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toStartOf="@+id/pos5"
+        app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pos1"
         app:srcCompat="@drawable/limpio" />
@@ -73,14 +71,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="32dp"
         android:contentDescription="Casilla jugar gato"
-        app:layout_constraintBottom_toTopOf="@+id/pos8"
         app:layout_constraintEnd_toStartOf="@+id/pos6"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/pos4"
         app:layout_constraintTop_toBottomOf="@+id/pos2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/limpio" />
 
     <ImageButton
@@ -88,10 +82,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="60dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/pos5"
         app:layout_constraintTop_toBottomOf="@+id/pos3"
         app:srcCompat="@drawable/limpio" />
 
@@ -99,7 +92,7 @@
         android:id="@+id/pos7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toStartOf="@+id/pos8"
@@ -111,13 +104,10 @@
         android:id="@+id/pos8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="342dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
         android:contentDescription="Casilla jugar gato"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/pos9"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/pos7"
         app:layout_constraintTop_toBottomOf="@+id/pos5"
         app:srcCompat="@drawable/limpio" />
 
@@ -126,10 +116,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="60dp"
         android:contentDescription="Casilla jugar gato"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/pos8"
         app:layout_constraintTop_toBottomOf="@+id/pos6"
         app:srcCompat="@drawable/limpio" />
 
